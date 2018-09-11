@@ -1,0 +1,54 @@
+{
+  "uid" : "67b394b36518f28f",
+  "name" : "I om crm main page",
+  "fullName" : "Performing a logout .I om crm main page",
+  "historyId" : "f26f6a3df823208f5ae08a9489d770b4",
+  "time" : {
+    "start" : 1536140809741,
+    "stop" : 1536140809754,
+    "duration" : 13
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"I om crm main page\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "/Users/leonid.ivanytskyi/WebstormProjects/webdriverIO-with-cucumberBDD/test/features/logout.feature:8",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "testMethod",
+    "value" : "I om crm main page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "67b394b36518f28f.json",
+  "parameterValues" : [ "chrome" ]
+}

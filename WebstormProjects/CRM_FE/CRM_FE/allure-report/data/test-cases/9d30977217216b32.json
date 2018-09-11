@@ -1,0 +1,107 @@
+{
+  "uid" : "9d30977217216b32",
+  "name" : "I on crm login page",
+  "fullName" : "Performing a login .I on crm login page",
+  "historyId" : "d03d72ed2ca12f33ec941d0fcbb3cbd",
+  "time" : {
+    "start" : 1536147596737,
+    "stop" : 1536147601657,
+    "duration" : 4920
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/259c7a53d3c9295507f31197d4c6b6aa/url",
+      "time" : {
+        "start" : 1536147596737,
+        "stop" : 1536147600642,
+        "duration" : 3905
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a57c8cd6357f3ea",
+        "name" : "Request",
+        "source" : "4a57c8cd6357f3ea.json",
+        "type" : "application/json",
+        "size" : 47
+      }, {
+        "uid" : "fc7e0f5327f5091f",
+        "name" : "Response",
+        "source" : "fc7e0f5327f5091f.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login "
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login "
+  }, {
+    "name" : "testMethod",
+    "value" : "I on crm login page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7aad4ca75933ccf3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536147487448,
+        "stop" : 1536147491981,
+        "duration" : 4533
+      }
+    }, {
+      "uid" : "8c4453cd6daeaf7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536142144365,
+        "stop" : 1536142149032,
+        "duration" : 4667
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9d30977217216b32.json",
+  "parameterValues" : [ "chrome" ]
+}

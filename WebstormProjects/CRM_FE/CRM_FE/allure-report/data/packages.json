@@ -1,0 +1,225 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Performing a login Performing login operation with passing test data as data table",
+    "children" : [ {
+      "name" : "I om crm login page",
+      "uid" : "527751d436a79691",
+      "parentUid" : "a8ca96f4753baf8ef809e078e164b90c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532699216958,
+        "stop" : 1532699222125,
+        "duration" : 5167
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I login with username and password \"CRMAdmin@betlab\" \"CrmAdmin123#\" into the text box",
+      "uid" : "f0d1a64d2d53b029",
+      "parentUid" : "a8ca96f4753baf8ef809e078e164b90c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532699222126,
+        "stop" : 1532699224587,
+        "duration" : 2461
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see user name \"CRMAdmin@betlab\" on main page",
+      "uid" : "34a00b081fed674b",
+      "parentUid" : "a8ca96f4753baf8ef809e078e164b90c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532699224588,
+        "stop" : 1532699224633,
+        "duration" : 45
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "a8ca96f4753baf8ef809e078e164b90c"
+  }, {
+    "name" : "Performing a logout ",
+    "children" : [ {
+      "name" : "I om crm login main page",
+      "uid" : "15ed1428534f0ba6",
+      "parentUid" : "a36e735e701eca401310b756b06e38ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533031320886,
+        "stop" : 1533031320971,
+        "duration" : 85
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I om crm main page",
+      "uid" : "93e50d4a0cba8fea",
+      "parentUid" : "a36e735e701eca401310b756b06e38ad",
+      "status" : "broken",
+      "time" : {
+        "start" : 1536140859724,
+        "stop" : 1536140859733,
+        "duration" : 9
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I on crm login page",
+      "uid" : "36589a3177bf1101",
+      "parentUid" : "a36e735e701eca401310b756b06e38ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536141602094,
+        "stop" : 1536141607598,
+        "duration" : 5504
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I login with username and password <user> <password> into the text box",
+      "uid" : "3fd3a0d81d36e1ee",
+      "parentUid" : "a36e735e701eca401310b756b06e38ad",
+      "status" : "broken",
+      "time" : {
+        "start" : 1536141607599,
+        "stop" : 1536141607601,
+        "duration" : 2
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see user name \"CRMAdmin@betlab\" on main page",
+      "uid" : "87a765258f1b915f",
+      "parentUid" : "a36e735e701eca401310b756b06e38ad",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536141607602,
+        "stop" : 1536141607606,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I press logout button",
+      "uid" : "e35d9fdf19de3823",
+      "parentUid" : "a36e735e701eca401310b756b06e38ad",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536141607607,
+        "stop" : 1536141607608,
+        "duration" : 1
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see all elements of login page",
+      "uid" : "533464f4883a3390",
+      "parentUid" : "a36e735e701eca401310b756b06e38ad",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536141607609,
+        "stop" : 1536141607610,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "a36e735e701eca401310b756b06e38ad"
+  }, {
+    "name" : "Performing a login Performing login operation",
+    "children" : [ {
+      "name" : "I om crm login page",
+      "uid" : "731188f72d8eebd8",
+      "parentUid" : "bd635219b43d2edf6138f7a24202c359",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533036151044,
+        "stop" : 1533036159663,
+        "duration" : 8619
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I on crm login page",
+      "uid" : "af4e742d7a2dff91",
+      "parentUid" : "bd635219b43d2edf6138f7a24202c359",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536149427196,
+        "stop" : 1536149436504,
+        "duration" : 9308
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I login with username and password \"CRMAdmin@betlab\" \"CrmAdmin123#\" into the text box",
+      "uid" : "306f45b772ed57e9",
+      "parentUid" : "bd635219b43d2edf6138f7a24202c359",
+      "status" : "broken",
+      "time" : {
+        "start" : 1536149436506,
+        "stop" : 1536149442319,
+        "duration" : 5813
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see user name \"CRMAdmin@betlab\" on main page",
+      "uid" : "b96923c58e41f261",
+      "parentUid" : "bd635219b43d2edf6138f7a24202c359",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536149442319,
+        "stop" : 1536149442319,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "bd635219b43d2edf6138f7a24202c359"
+  }, {
+    "name" : "Performing a login ",
+    "children" : [ {
+      "name" : "I on crm login page",
+      "uid" : "9d30977217216b32",
+      "parentUid" : "2a2d4e2b20b28e1789540bdbc118e20c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536147596737,
+        "stop" : 1536147601657,
+        "duration" : 4920
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I press logout button",
+      "uid" : "2251cd4bfca2320",
+      "parentUid" : "2a2d4e2b20b28e1789540bdbc118e20c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1536147601659,
+        "stop" : 1536147602131,
+        "duration" : 472
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see all elements of login page",
+      "uid" : "3c12c997b90b060c",
+      "parentUid" : "2a2d4e2b20b28e1789540bdbc118e20c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536147602131,
+        "stop" : 1536147602131,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "2a2d4e2b20b28e1789540bdbc118e20c"
+  } ]
+}

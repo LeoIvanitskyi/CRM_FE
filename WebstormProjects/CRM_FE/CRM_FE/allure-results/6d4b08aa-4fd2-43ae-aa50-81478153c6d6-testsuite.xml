@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1536140685516' stop='1536140686641'>
+    <name>Performing a logout </name>
+    <title>Performing a logout </title>
+    <test-cases>
+        <test-case start='1536140685525' status='passed' stop='1536140685640'>
+            <name>I om crm main page</name>
+            <title>I om crm main page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"10"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/leonid.ivanytskyi/WebstormProjects/webdriverIO-with-cucumberBDD/test/features/logout.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1536140685536' status='passed' stop='1536140685605'>
+                    <name>POST /wd/hub/session/1a6fa3aa73499aca9aa1a4d437ffd455/element</name>
+                    <title>POST /wd/hub/session/1a6fa3aa73499aca9aa1a4d437ffd455/element</title>
+                    <attachments>
+                        <attachment title='Request' source='17606d3e-ac48-4131-916d-33de4b37c622-attachment.json' type='application/json' size='123'/>
+                        <attachment title='Response' source='9770e88c-8185-432e-bfb3-b4642892cf45-attachment.json' type='application/json' size='733'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1536140685613' status='passed' stop='1536140685637'>
+                    <name>POST /wd/hub/session/1a6fa3aa73499aca9aa1a4d437ffd455/elements</name>
+                    <title>POST /wd/hub/session/1a6fa3aa73499aca9aa1a4d437ffd455/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='588054cb-b10b-4f95-9892-86102a7a158b-attachment.json' type='application/json' size='123'/>
+                        <attachment title='Response' source='40b2e7d5-1bea-47ca-a453-654c96846d4a-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1536140685642' status='broken' stop='1536140686638'>
+            <name>I press logout button</name>
+            <title>I press logout button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"10"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/leonid.ivanytskyi/WebstormProjects/webdriverIO-with-cucumberBDD/test/features/logout.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1536140685644' status='passed' stop='1536140685669'>
+                    <name>POST /wd/hub/session/1a6fa3aa73499aca9aa1a4d437ffd455/element</name>
+                    <title>POST /wd/hub/session/1a6fa3aa73499aca9aa1a4d437ffd455/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0dca36f0-7792-45e8-9390-f9abbd941e5d-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='579a50ee-2d85-4a14-bd59-1aa4159a2c39-attachment.json' type='application/json' size='589'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1536140685675' status='broken' stop='1536140686638'>
+                    <name>GET /wd/hub/session/1a6fa3aa73499aca9aa1a4d437ffd455/screenshot</name>
+                    <title>GET /wd/hub/session/1a6fa3aa73499aca9aa1a4d437ffd455/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e257e979-01fc-4840-a258-c1ae682799ac-attachment.png' type='image/png' size='13319'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("#logout-button").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("#logout-button").
+                    at click() - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1536140686641' status='pending' stop='1536140686641'>
+            <name>I should see all elements of login page</name>
+            <title>I should see all elements of login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"10"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/leonid.ivanytskyi/WebstormProjects/webdriverIO-with-cucumberBDD/test/features/logout.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

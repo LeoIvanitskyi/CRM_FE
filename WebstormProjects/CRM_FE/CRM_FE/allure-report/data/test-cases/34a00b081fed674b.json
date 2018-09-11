@@ -1,0 +1,150 @@
+{
+  "uid" : "34a00b081fed674b",
+  "name" : "I should see user name \"CRMAdmin@betlab\" on main page",
+  "fullName" : "Performing a login Performing login operation with passing test data as data table.I should see user name \"CRMAdmin@betlab\" on main page",
+  "historyId" : "ee9af6ae2d62c8e5dabe286c5d12744e",
+  "time" : {
+    "start" : 1532699224588,
+    "stop" : 1532699224633,
+    "duration" : 45
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/ee0ea6a2e7950ff0217e063b24edaece/element",
+      "time" : {
+        "start" : 1532699224589,
+        "stop" : 1532699224605,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3619989d8260fe43",
+        "name" : "Request",
+        "source" : "3619989d8260fe43.json",
+        "type" : "application/json",
+        "size" : 108
+      }, {
+        "uid" : "bc08187c691f809e",
+        "name" : "Response",
+        "source" : "bc08187c691f809e.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/ee0ea6a2e7950ff0217e063b24edaece/element/0.6991904513552392-5/text",
+      "time" : {
+        "start" : 1532699224610,
+        "stop" : 1532699224631,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f5bbdd87e020321e",
+        "name" : "Response",
+        "source" : "f5bbdd87e020321e.json",
+        "type" : "application/json",
+        "size" : 104
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing login operation with passing test data as data table"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Performing login operation with passing test data as data table"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Performing login operation with passing test data as data table"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should see user name \"CRMAdmin@betlab\" on main page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Performing login operation with passing test data as data table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ea50bb557967e690",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532685004950,
+        "stop" : 1532685004994,
+        "duration" : 44
+      }
+    }, {
+      "uid" : "9ca5b290d1addb8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532684927859,
+        "stop" : 1532684927906,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "bd4426b700296f7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532682302395,
+        "stop" : 1532682302442,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "9f0458c4286f2e1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532682130061,
+        "stop" : 1532682130111,
+        "duration" : 50
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34a00b081fed674b.json",
+  "parameterValues" : [ "chrome" ]
+}

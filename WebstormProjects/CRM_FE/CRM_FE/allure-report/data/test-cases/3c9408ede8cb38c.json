@@ -1,0 +1,120 @@
+{
+  "uid" : "3c9408ede8cb38c",
+  "name" : "I om crm login page",
+  "fullName" : "Performing a login Performing login operation.I om crm login page",
+  "historyId" : "a7413329eac3d8a4c1ee20985545d010",
+  "time" : {
+    "start" : 1533031320888,
+    "stop" : 1533031320939,
+    "duration" : 51
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "no such window: window was already closed",
+  "statusTrace" : "Error: A request to switch to a different window could not be satisfied because the window could not be found.\n                    at url(\"http://dbe-crm.hp.consul/login\") - index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "no such window: window was already closed",
+    "statusTrace" : "Error: A request to switch to a different window could not be satisfied because the window could not be found.\n                    at url(\"http://dbe-crm.hp.consul/login\") - index.js:316:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/4d3746ce400821eee8fb438c510cb0d0/url",
+      "time" : {
+        "start" : 1533031320898,
+        "stop" : 1533031320921,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "992d1d799a0a1eb",
+        "name" : "Request",
+        "source" : "992d1d799a0a1eb.json",
+        "type" : "application/json",
+        "size" : 47
+      }, {
+        "uid" : "a0eef0b65f2d5c67",
+        "name" : "Response",
+        "source" : "a0eef0b65f2d5c67.json",
+        "type" : "application/json",
+        "size" : 508
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/4d3746ce400821eee8fb438c510cb0d0/screenshot",
+      "time" : {
+        "start" : 1533031320924,
+        "stop" : 1533031320934,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "678df86c5e675dde",
+        "name" : "Response",
+        "source" : "678df86c5e675dde.json",
+        "type" : "application/json",
+        "size" : 508
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing login operation"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testMethod",
+    "value" : "I om crm login page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3c9408ede8cb38c.json",
+  "parameterValues" : [ "chrome" ]
+}

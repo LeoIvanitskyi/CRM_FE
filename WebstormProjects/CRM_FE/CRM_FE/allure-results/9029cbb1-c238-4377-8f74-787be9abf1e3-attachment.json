@@ -1,0 +1,4 @@
+{
+    "using": "css selector",
+    "value": "body > my-app > ng-component > div > div > aside > div > div"
+}

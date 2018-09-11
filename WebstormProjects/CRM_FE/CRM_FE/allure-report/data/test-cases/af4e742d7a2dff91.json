@@ -1,0 +1,187 @@
+{
+  "uid" : "af4e742d7a2dff91",
+  "name" : "I on crm login page",
+  "fullName" : "Performing a login Performing login operation.I on crm login page",
+  "historyId" : "4bb5b334b5d9764960d73cbaced6a169",
+  "time" : {
+    "start" : 1536149427196,
+    "stop" : 1536149436504,
+    "duration" : 9308
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/fa244f3a356c44867b36d972a4cd87c5/url",
+      "time" : {
+        "start" : 1536149427205,
+        "stop" : 1536149435492,
+        "duration" : 8287
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ac5717099a455a8",
+        "name" : "Request",
+        "source" : "6ac5717099a455a8.json",
+        "type" : "application/json",
+        "size" : 47
+      }, {
+        "uid" : "e3303c080ab13568",
+        "name" : "Response",
+        "source" : "e3303c080ab13568.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing login operation"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testMethod",
+    "value" : "I on crm login page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "75d83c2025856625",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536149341550,
+        "stop" : 1536149351361,
+        "duration" : 9811
+      }
+    }, {
+      "uid" : "77a0686bc0a16c0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536149298112,
+        "stop" : 1536149309095,
+        "duration" : 10983
+      }
+    }, {
+      "uid" : "6c9d456a7f3b614",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536147583164,
+        "stop" : 1536147593996,
+        "duration" : 10832
+      }
+    }, {
+      "uid" : "7047f60b8001c8e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536147478777,
+        "stop" : 1536147484751,
+        "duration" : 5974
+      }
+    }, {
+      "uid" : "162bae91cc640289",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536142135742,
+        "stop" : 1536142141655,
+        "duration" : 5913
+      }
+    }, {
+      "uid" : "42596c179c4c0cce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536141372623,
+        "stop" : 1536141380290,
+        "duration" : 7667
+      }
+    }, {
+      "uid" : "7989cae378769f83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536141252026,
+        "stop" : 1536141264949,
+        "duration" : 12923
+      }
+    }, {
+      "uid" : "47dbc60bf77ef71f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536140859723,
+        "stop" : 1536140868346,
+        "duration" : 8623
+      }
+    }, {
+      "uid" : "9d5b444118844d10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536140809760,
+        "stop" : 1536140821253,
+        "duration" : 11493
+      }
+    }, {
+      "uid" : "527c2d81cf54eb7f",
+      "status" : "broken",
+      "statusDetails" : "Step \"I on crm login page\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1536140763416,
+        "stop" : 1536140763421,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "e0b50453d5606874",
+      "status" : "broken",
+      "statusDetails" : "Step \"I on crm login page\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1536140685535,
+        "stop" : 1536140685545,
+        "duration" : 10
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af4e742d7a2dff91.json",
+  "parameterValues" : [ "chrome" ]
+}

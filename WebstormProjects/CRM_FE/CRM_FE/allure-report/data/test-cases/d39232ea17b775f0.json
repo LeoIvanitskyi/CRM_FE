@@ -1,0 +1,116 @@
+{
+  "uid" : "d39232ea17b775f0",
+  "name" : "I om crm main page",
+  "fullName" : "Performing a logout .I om crm main page",
+  "historyId" : "f26f6a3df823208f5ae08a9489d770b4",
+  "time" : {
+    "start" : 1533036151040,
+    "stop" : 1533036151124,
+    "duration" : 84
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/5842403967ea9a1ac3493dc6cbe34a17/element",
+      "time" : {
+        "start" : 1533036151045,
+        "stop" : 1533036151081,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6aaa405380fe052d",
+        "name" : "Request",
+        "source" : "6aaa405380fe052d.json",
+        "type" : "application/json",
+        "size" : 123
+      }, {
+        "uid" : "39f940dff00740ae",
+        "name" : "Response",
+        "source" : "39f940dff00740ae.json",
+        "type" : "application/json",
+        "size" : 732
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/5842403967ea9a1ac3493dc6cbe34a17/elements",
+      "time" : {
+        "start" : 1533036151086,
+        "stop" : 1533036151109,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b813a488ce27abdc",
+        "name" : "Request",
+        "source" : "b813a488ce27abdc.json",
+        "type" : "application/json",
+        "size" : 123
+      }, {
+        "uid" : "4e1ff9dd489aae1a",
+        "name" : "Response",
+        "source" : "4e1ff9dd489aae1a.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "testMethod",
+    "value" : "I om crm main page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d39232ea17b775f0.json",
+  "parameterValues" : [ "chrome" ]
+}

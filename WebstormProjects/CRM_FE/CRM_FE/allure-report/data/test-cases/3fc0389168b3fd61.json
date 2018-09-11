@@ -1,0 +1,58 @@
+{
+  "uid" : "3fc0389168b3fd61",
+  "name" : "I should see user name \"CRMAdmin@betlab\" on main page",
+  "fullName" : "Performing a login Performing login operation.I should see user name \"CRMAdmin@betlab\" on main page",
+  "historyId" : "d331f64a674e85c90600d7a3f9a2d1e",
+  "time" : {
+    "start" : 1536149315396,
+    "stop" : 1536149315396,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing login operation"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should see user name \"CRMAdmin@betlab\" on main page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3fc0389168b3fd61.json",
+  "parameterValues" : [ "chrome" ]
+}

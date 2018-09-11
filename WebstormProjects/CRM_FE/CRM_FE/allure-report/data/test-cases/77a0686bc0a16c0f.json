@@ -1,0 +1,95 @@
+{
+  "uid" : "77a0686bc0a16c0f",
+  "name" : "I on crm login page",
+  "fullName" : "Performing a login Performing login operation.I on crm login page",
+  "historyId" : "4bb5b334b5d9764960d73cbaced6a169",
+  "time" : {
+    "start" : 1536149298112,
+    "stop" : 1536149309095,
+    "duration" : 10983
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/67c5aafea7a6aba224db26eb4e9ba8d8/url",
+      "time" : {
+        "start" : 1536149298118,
+        "stop" : 1536149308080,
+        "duration" : 9962
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "51f6c4ae46063c3b",
+        "name" : "Request",
+        "source" : "51f6c4ae46063c3b.json",
+        "type" : "application/json",
+        "size" : 47
+      }, {
+        "uid" : "eb11527d948cb6d5",
+        "name" : "Response",
+        "source" : "eb11527d948cb6d5.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing login operation"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testMethod",
+    "value" : "I on crm login page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77a0686bc0a16c0f.json",
+  "parameterValues" : [ "chrome" ]
+}

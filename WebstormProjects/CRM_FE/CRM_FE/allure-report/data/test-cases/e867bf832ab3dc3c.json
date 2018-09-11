@@ -1,0 +1,116 @@
+{
+  "uid" : "e867bf832ab3dc3c",
+  "name" : "I should see user name \"CRMAdmin@betlab\" on main page",
+  "fullName" : "Performing a login Performing login operation.I should see user name \"CRMAdmin@betlab\" on main page",
+  "historyId" : "d331f64a674e85c90600d7a3f9a2d1e",
+  "time" : {
+    "start" : 1533032725772,
+    "stop" : 1533032725814,
+    "duration" : 42
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/0e1310c55b8b72e53a5f1c90521d9098/element",
+      "time" : {
+        "start" : 1533032725773,
+        "stop" : 1533032725791,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e5adb40bd5fa606",
+        "name" : "Request",
+        "source" : "e5adb40bd5fa606.json",
+        "type" : "application/json",
+        "size" : 108
+      }, {
+        "uid" : "dabcc2162c01a7fb",
+        "name" : "Response",
+        "source" : "dabcc2162c01a7fb.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/0e1310c55b8b72e53a5f1c90521d9098/element/0.3411991162614556-5/text",
+      "time" : {
+        "start" : 1533032725794,
+        "stop" : 1533032725812,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f990491b831b3bd2",
+        "name" : "Response",
+        "source" : "f990491b831b3bd2.json",
+        "type" : "application/json",
+        "size" : 104
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing login operation"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should see user name \"CRMAdmin@betlab\" on main page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e867bf832ab3dc3c.json",
+  "parameterValues" : [ "chrome" ]
+}

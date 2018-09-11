@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="performing_a_login1" timestamp="2018-09-06T15:16:30" time="7.511" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="42bd2a9063858aedcfa3be6dd05204fd"/>
+      <property name="suiteName" value="Performing a login1"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+  </testsuite>
+  <testsuite name="performing_login_operation16" timestamp="2018-09-06T15:16:30" time="7.495" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="42bd2a9063858aedcfa3be6dd05204fd"/>
+      <property name="suiteName" value="Performing login operation16"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.Performing login operation16" name="I on crm login page8" time="7.725"/>
+    <testcase classname="chrome.Performing login operation16" name="I login with username and password &quot;CRMAdmin@betlab&quot; &quot;CrmAdmin123#&quot; into the text box11" time="2.727"/>
+    <testcase classname="chrome.Performing login operation16" name="I should see user name &quot;CRMAdmin@betlab&quot; on main page12" time="0.279"/>
+  </testsuite>
+</testsuites>

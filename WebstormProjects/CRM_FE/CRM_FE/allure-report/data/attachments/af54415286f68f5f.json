@@ -1,0 +1,9 @@
+{
+    "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > my-app > ng-component > div > div > aside > ul > li:nth-child(1) > a\"}",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "type": "NoSuchElement",
+        "message": "An element could not be located on the page using the given search parameters.",
+        "orgStatusMessage": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > my-app > ng-component > div > div > aside > ul > li:nth-child(1) > a\"}\n  (Session info: chrome=67.0.3396.99)\n  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)"
+    }
+}

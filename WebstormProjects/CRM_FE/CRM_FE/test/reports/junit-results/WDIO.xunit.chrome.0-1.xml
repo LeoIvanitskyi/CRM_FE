@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="13" timestamp="2018-09-05T12:56:12" time="7.92" tests="5" failures="0" errors="1" skipped="3">
+    <properties>
+      <property name="specId" value="ed391221409e28652b59ea6becfc4b37"/>
+      <property name="suiteName" value="13"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.13" name="I on crm login page8" time="10.739"/>
+    <testcase classname="chrome.13" name="I login with username and password &lt;user> &lt;password> into the text box9" time="2.852">
+      <error message="&#xA;Step &quot;I login with username and password &lt;user> &lt;password> into the text box&quot; is not defined. You can ignore this error by setting&#xA;                              cucumberOpts.ignoreUndefinedDefinitions as true.&#xA;"/>
+      <system-err>
+        <![CDATA[
+/Users/leonid.ivanytskyi/WebstormProjects/webdriverIO-with-cucumberBDD/test/features/logout.feature:9
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.13" name="I should see user name &quot;CRMAdmin@betlab&quot; on main page10" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.13" name="I press logout button14" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.13" name="I should see all elements of login page15" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="performing_a_logout1" timestamp="2018-09-05T12:56:12" time="7.948" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="ed391221409e28652b59ea6becfc4b37"/>
+      <property name="suiteName" value="Performing a logout1"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"browserName\":\"chrome\",\"maxInstances\":\"5\"}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"/Users/leonid.ivanytskyi/WebstormProjects/webdriverIO-with-cucumberBDD/test/features/login.feature\"]" ],
+  "name" : "spec files"
+} ]

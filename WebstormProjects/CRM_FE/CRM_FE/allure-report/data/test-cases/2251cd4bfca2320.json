@@ -1,0 +1,139 @@
+{
+  "uid" : "2251cd4bfca2320",
+  "name" : "I press logout button",
+  "fullName" : "Performing a login .I press logout button",
+  "historyId" : "c05ebd0631727580deacb0d7b5e872b0",
+  "time" : {
+    "start" : 1536147601659,
+    "stop" : 1536147602131,
+    "duration" : 472
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"#logout-button\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#logout-button\").\n                    at click() - index.js:316:3",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"#logout-button\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#logout-button\").\n                    at click() - index.js:316:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/259c7a53d3c9295507f31197d4c6b6aa/element",
+      "time" : {
+        "start" : 1536147601660,
+        "stop" : 1536147601680,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4fa16bd90a8a80a3",
+        "name" : "Request",
+        "source" : "4fa16bd90a8a80a3.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "14db0b0284fe50d0",
+        "name" : "Response",
+        "source" : "14db0b0284fe50d0.json",
+        "type" : "application/json",
+        "size" : 589
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/259c7a53d3c9295507f31197d4c6b6aa/screenshot",
+      "time" : {
+        "start" : 1536147601683,
+        "stop" : 1536147602131,
+        "duration" : 448
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"#logout-button\").\n                    at click() - index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e5036e3eb7f8d5eb",
+        "name" : "Screenshot",
+        "source" : "e5036e3eb7f8d5eb.png",
+        "type" : "image/png",
+        "size" : 35335
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login "
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login "
+  }, {
+    "name" : "testMethod",
+    "value" : "I press logout button"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "452fab009c0d178e",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"#logout-button\").",
+      "time" : {
+        "start" : 1536147491983,
+        "stop" : 1536147492884,
+        "duration" : 901
+      }
+    }, {
+      "uid" : "b8a5f77b9e30e2b",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"#logout-button\").",
+      "time" : {
+        "start" : 1536142149034,
+        "stop" : 1536142149979,
+        "duration" : 945
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2251cd4bfca2320.json",
+  "parameterValues" : [ "chrome" ]
+}

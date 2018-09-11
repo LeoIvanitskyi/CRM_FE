@@ -1,0 +1,154 @@
+{
+  "uid" : "731188f72d8eebd8",
+  "name" : "I om crm login page",
+  "fullName" : "Performing a login Performing login operation.I om crm login page",
+  "historyId" : "a7413329eac3d8a4c1ee20985545d010",
+  "time" : {
+    "start" : 1533036151044,
+    "stop" : 1533036159663,
+    "duration" : 8619
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/2d4e47f527ad90e39a5df710ef128e5f/url",
+      "time" : {
+        "start" : 1533036151049,
+        "stop" : 1533036158653,
+        "duration" : 7604
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f8e58094f79a5141",
+        "name" : "Request",
+        "source" : "f8e58094f79a5141.json",
+        "type" : "application/json",
+        "size" : 47
+      }, {
+        "uid" : "41d93fc6bc9f30bd",
+        "name" : "Response",
+        "source" : "41d93fc6bc9f30bd.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing login operation"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testMethod",
+    "value" : "I om crm login page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "64f925b1130d000a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533035908535,
+        "stop" : 1533035913462,
+        "duration" : 4927
+      }
+    }, {
+      "uid" : "90b2c5f0112157d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533032718726,
+        "stop" : 1533032723334,
+        "duration" : 4608
+      }
+    }, {
+      "uid" : "cb7112e0f05e04c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533032576095,
+        "stop" : 1533032581053,
+        "duration" : 4958
+      }
+    }, {
+      "uid" : "3c9408ede8cb38c",
+      "status" : "broken",
+      "statusDetails" : "no such window: window was already closed",
+      "time" : {
+        "start" : 1533031320888,
+        "stop" : 1533031320939,
+        "duration" : 51
+      }
+    }, {
+      "uid" : "9667223ae3a33103",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532943506422,
+        "stop" : 1532943511778,
+        "duration" : 5356
+      }
+    }, {
+      "uid" : "bd7ef81dea98d05b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532706923942,
+        "stop" : 1532706930644,
+        "duration" : 6702
+      }
+    }, {
+      "uid" : "7093cbad824c206",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532706729061,
+        "stop" : 1532706733926,
+        "duration" : 4865
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "731188f72d8eebd8.json",
+  "parameterValues" : [ "chrome" ]
+}

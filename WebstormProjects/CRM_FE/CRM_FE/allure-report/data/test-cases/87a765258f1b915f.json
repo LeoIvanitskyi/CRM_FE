@@ -1,0 +1,70 @@
+{
+  "uid" : "87a765258f1b915f",
+  "name" : "I should see user name \"CRMAdmin@betlab\" on main page",
+  "fullName" : "Performing a logout .I should see user name \"CRMAdmin@betlab\" on main page",
+  "historyId" : "cc201fa2e03fc8c5521e84dc53be2bbf",
+  "time" : {
+    "start" : 1536141607602,
+    "stop" : 1536141607606,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "testMethod",
+    "value" : "I should see user name \"CRMAdmin@betlab\" on main page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e50ad48f6562e73a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536141380512,
+        "stop" : 1536141380516,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "beba20b35b01dcc4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536141264985,
+        "stop" : 1536141264986,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87a765258f1b915f.json",
+  "parameterValues" : [ "chrome" ]
+}

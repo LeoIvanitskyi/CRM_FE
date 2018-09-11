@@ -1,0 +1,54 @@
+{
+  "uid" : "62e752611016aff5",
+  "name" : "I om crm login main page",
+  "fullName" : "Performing a logout .I om crm login main page",
+  "historyId" : "7c072921ac9d241cc0cb758887b428ed",
+  "time" : {
+    "start" : 1532706923949,
+    "stop" : 1532706923960,
+    "duration" : 11
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "mainCrmPage is not defined",
+  "statusTrace" : "ReferenceError: mainCrmPage is not defined\n                    at World.<anonymous> (/Users/leonid.ivanytskyi/WebstormProjects/webdriverIO-with-cucumberBDD/test/stepDefinitions/given.js:14:7)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/leonid.ivanytskyi/WebstormProjects/webdriverIO-with-cucumberBDD/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "testMethod",
+    "value" : "I om crm login main page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62e752611016aff5.json",
+  "parameterValues" : [ "chrome" ]
+}

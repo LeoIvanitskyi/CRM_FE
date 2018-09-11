@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "90db47c915bd7fa36e4a1b30ba3dd14d",
+    "name" : "Performing a logout ",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 3,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "f30193f56e9c00418ee38c3623bc7a10",
+    "name" : "Performing a login Performing login operation",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 1,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "ed67e08b52bf97146fc197115f0f6e64",
+    "name" : "Performing a login ",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "a77511f8e0c04019c62f06b743690605",
+    "name" : "Performing a login Performing login operation with passing test data as data table",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

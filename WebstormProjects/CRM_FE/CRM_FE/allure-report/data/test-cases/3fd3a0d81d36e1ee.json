@@ -1,0 +1,78 @@
+{
+  "uid" : "3fd3a0d81d36e1ee",
+  "name" : "I login with username and password <user> <password> into the text box",
+  "fullName" : "Performing a logout .I login with username and password <user> <password> into the text box",
+  "historyId" : "2f5cde66cd0ae2329a75f48f55d26fef",
+  "time" : {
+    "start" : 1536141607599,
+    "stop" : 1536141607601,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"I login with username and password <user> <password> into the text box\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "/Users/leonid.ivanytskyi/WebstormProjects/webdriverIO-with-cucumberBDD/test/features/logout.feature:9",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "testMethod",
+    "value" : "I login with username and password <user> <password> into the text box"
+  }, {
+    "name" : "package",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5a4b32f1c2ff8476",
+      "status" : "broken",
+      "statusDetails" : "Step \"I login with username and password <user> <password> into the text box\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1536141380505,
+        "stop" : 1536141380507,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "2c1da7aa2bb1e85f",
+      "status" : "broken",
+      "statusDetails" : "Step \"I login with username and password <user> <password> into the text box\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1536141264982,
+        "stop" : 1536141264984,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3fd3a0d81d36e1ee.json",
+  "parameterValues" : [ "chrome" ]
+}

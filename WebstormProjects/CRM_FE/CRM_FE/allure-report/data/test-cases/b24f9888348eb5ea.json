@@ -1,0 +1,115 @@
+{
+  "uid" : "b24f9888348eb5ea",
+  "name" : "I press logout button",
+  "fullName" : "Performing a logout .I press logout button",
+  "historyId" : "6203c869e8a862d9cb7cef1594df6282",
+  "time" : {
+    "start" : 1533036151124,
+    "stop" : 1533036152109,
+    "duration" : 985
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"#logout-button\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#logout-button\").\n                    at click() - index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"#logout-button\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#logout-button\").\n                    at click() - index.js:316:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/5842403967ea9a1ac3493dc6cbe34a17/element",
+      "time" : {
+        "start" : 1533036151141,
+        "stop" : 1533036151184,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1b4a3882c2472ac3",
+        "name" : "Request",
+        "source" : "1b4a3882c2472ac3.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "c753b672a65d3a41",
+        "name" : "Response",
+        "source" : "c753b672a65d3a41.json",
+        "type" : "application/json",
+        "size" : 588
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/5842403967ea9a1ac3493dc6cbe34a17/screenshot",
+      "time" : {
+        "start" : 1533036151193,
+        "stop" : 1533036152109,
+        "duration" : 916
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"#logout-button\").\n                    at click() - index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "27cce2c0729dde28",
+        "name" : "Screenshot",
+        "source" : "27cce2c0729dde28.png",
+        "type" : "image/png",
+        "size" : 13319
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "testMethod",
+    "value" : "I press logout button"
+  }, {
+    "name" : "package",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b24f9888348eb5ea.json",
+  "parameterValues" : [ "chrome" ]
+}

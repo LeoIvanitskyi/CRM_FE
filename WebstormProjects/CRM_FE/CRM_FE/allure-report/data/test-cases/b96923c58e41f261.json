@@ -1,0 +1,212 @@
+{
+  "uid" : "b96923c58e41f261",
+  "name" : "I should see user name \"CRMAdmin@betlab\" on main page",
+  "fullName" : "Performing a login Performing login operation.I should see user name \"CRMAdmin@betlab\" on main page",
+  "historyId" : "d331f64a674e85c90600d7a3f9a2d1e",
+  "time" : {
+    "start" : 1536149442319,
+    "stop" : 1536149442319,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing login operation"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should see user name \"CRMAdmin@betlab\" on main page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e783dd82bef9da8e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536149356462,
+        "stop" : 1536149356463,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3fc0389168b3fd61",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536149315396,
+        "stop" : 1536149315396,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "61e295307e3b84af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536147596658,
+        "stop" : 1536147596709,
+        "duration" : 51
+      }
+    }, {
+      "uid" : "fe6ffe69597059b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536147487362,
+        "stop" : 1536147487424,
+        "duration" : 62
+      }
+    }, {
+      "uid" : "6ce67c942f3d6e27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536142144273,
+        "stop" : 1536142144335,
+        "duration" : 62
+      }
+    }, {
+      "uid" : "3446e7d5cab1ed9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536141383043,
+        "stop" : 1536141383099,
+        "duration" : 56
+      }
+    }, {
+      "uid" : "10e2c74682114415",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536141267963,
+        "stop" : 1536141268019,
+        "duration" : 56
+      }
+    }, {
+      "uid" : "1820ed9034f1c21b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536140870944,
+        "stop" : 1536140871005,
+        "duration" : 61
+      }
+    }, {
+      "uid" : "e900628af578adf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536140824121,
+        "stop" : 1536140824185,
+        "duration" : 64
+      }
+    }, {
+      "uid" : "dad2de6c9ad5110b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536140763430,
+        "stop" : 1536140763438,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "e464245c5448bafb",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536140685558,
+        "stop" : 1536140685559,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "314375c7ec0386b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533036162116,
+        "stop" : 1533036162157,
+        "duration" : 41
+      }
+    }, {
+      "uid" : "a4a7a062e40d2868",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533035915885,
+        "stop" : 1533035915925,
+        "duration" : 40
+      }
+    }, {
+      "uid" : "e867bf832ab3dc3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533032725772,
+        "stop" : 1533032725814,
+        "duration" : 42
+      }
+    }, {
+      "uid" : "d867bf2dab695424",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533032583486,
+        "stop" : 1533032583529,
+        "duration" : 43
+      }
+    }, {
+      "uid" : "ce0924545a0c1c4d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533031320946,
+        "stop" : 1533031320947,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "63a1e0d3ca2b1234",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532943514247,
+        "stop" : 1532943514341,
+        "duration" : 94
+      }
+    }, {
+      "uid" : "bedff6fb0953214c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532706933080,
+        "stop" : 1532706933122,
+        "duration" : 42
+      }
+    }, {
+      "uid" : "7b4c42b2005ba279",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532706736367,
+        "stop" : 1532706736411,
+        "duration" : 44
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b96923c58e41f261.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,167 @@
+{
+  "uid" : "e35d9fdf19de3823",
+  "name" : "I press logout button",
+  "fullName" : "Performing a logout .I press logout button",
+  "historyId" : "6203c869e8a862d9cb7cef1594df6282",
+  "time" : {
+    "start" : 1536141607607,
+    "stop" : 1536141607608,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "testMethod",
+    "value" : "I press logout button"
+  }, {
+    "name" : "package",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b417d46cb43f01cf",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536141380518,
+        "stop" : 1536141380520,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "6acd53bb531abe0d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536141264989,
+        "stop" : 1536141264990,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "cf432919d5554106",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536140859764,
+        "stop" : 1536140859774,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "8dba645305c2be8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536140809757,
+        "stop" : 1536140809759,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "12d5cb77c3e65af7",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"#logout-button\").",
+      "time" : {
+        "start" : 1536140763515,
+        "stop" : 1536140764576,
+        "duration" : 1061
+      }
+    }, {
+      "uid" : "8c72483ec1dbd4bb",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"#logout-button\").",
+      "time" : {
+        "start" : 1536140685642,
+        "stop" : 1536140686638,
+        "duration" : 996
+      }
+    }, {
+      "uid" : "b24f9888348eb5ea",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"#logout-button\").",
+      "time" : {
+        "start" : 1533036151124,
+        "stop" : 1533036152109,
+        "duration" : 985
+      }
+    }, {
+      "uid" : "b8b9ec88ec4610b3",
+      "status" : "broken",
+      "statusDetails" : "Step \"I press logout button\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1533035908612,
+        "stop" : 1533035908615,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "8138fadcabad1b61",
+      "status" : "broken",
+      "statusDetails" : "Step \"I press logout button\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1533032718825,
+        "stop" : 1533032718827,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "58f4db0e09b9b18b",
+      "status" : "broken",
+      "statusDetails" : "Step \"I press logout button\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1533032576193,
+        "stop" : 1533032576196,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "cdce1ccdb7dd2eda",
+      "status" : "broken",
+      "statusDetails" : "Step \"I press logout button\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1533031320972,
+        "stop" : 1533031320973,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a390523f5e0d21fa",
+      "status" : "broken",
+      "statusDetails" : "Step \"I press logout button\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1532943506521,
+        "stop" : 1532943506523,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "a462d896e9fba3e6",
+      "status" : "broken",
+      "statusDetails" : "Step \"I press logout button\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1532706923970,
+        "stop" : 1532706923975,
+        "duration" : 5
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e35d9fdf19de3823.json",
+  "parameterValues" : [ "chrome" ]
+}

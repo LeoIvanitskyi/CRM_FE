@@ -1,0 +1,171 @@
+[ {
+  "uid" : "3c12c997b90b060c",
+  "name" : "I should see all elements of login page",
+  "time" : {
+    "start" : 1536147602131,
+    "stop" : 1536147602131,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "15ed1428534f0ba6",
+  "name" : "I om crm login main page",
+  "time" : {
+    "start" : 1533031320886,
+    "stop" : 1533031320971,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b96923c58e41f261",
+  "name" : "I should see user name \"CRMAdmin@betlab\" on main page",
+  "time" : {
+    "start" : 1536149442319,
+    "stop" : 1536149442319,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "306f45b772ed57e9",
+  "name" : "I login with username and password \"CRMAdmin@betlab\" \"CrmAdmin123#\" into the text box",
+  "time" : {
+    "start" : 1536149436506,
+    "stop" : 1536149442319,
+    "duration" : 5813
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9d30977217216b32",
+  "name" : "I on crm login page",
+  "time" : {
+    "start" : 1536147596737,
+    "stop" : 1536147601657,
+    "duration" : 4920
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36589a3177bf1101",
+  "name" : "I on crm login page",
+  "time" : {
+    "start" : 1536141602094,
+    "stop" : 1536141607598,
+    "duration" : 5504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34a00b081fed674b",
+  "name" : "I should see user name \"CRMAdmin@betlab\" on main page",
+  "time" : {
+    "start" : 1532699224588,
+    "stop" : 1532699224633,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af4e742d7a2dff91",
+  "name" : "I on crm login page",
+  "time" : {
+    "start" : 1536149427196,
+    "stop" : 1536149436504,
+    "duration" : 9308
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "527751d436a79691",
+  "name" : "I om crm login page",
+  "time" : {
+    "start" : 1532699216958,
+    "stop" : 1532699222125,
+    "duration" : 5167
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e35d9fdf19de3823",
+  "name" : "I press logout button",
+  "time" : {
+    "start" : 1536141607607,
+    "stop" : 1536141607608,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "87a765258f1b915f",
+  "name" : "I should see user name \"CRMAdmin@betlab\" on main page",
+  "time" : {
+    "start" : 1536141607602,
+    "stop" : 1536141607606,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "533464f4883a3390",
+  "name" : "I should see all elements of login page",
+  "time" : {
+    "start" : 1536141607609,
+    "stop" : 1536141607610,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "731188f72d8eebd8",
+  "name" : "I om crm login page",
+  "time" : {
+    "start" : 1533036151044,
+    "stop" : 1533036159663,
+    "duration" : 8619
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93e50d4a0cba8fea",
+  "name" : "I om crm main page",
+  "time" : {
+    "start" : 1536140859724,
+    "stop" : 1536140859733,
+    "duration" : 9
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2251cd4bfca2320",
+  "name" : "I press logout button",
+  "time" : {
+    "start" : 1536147601659,
+    "stop" : 1536147602131,
+    "duration" : 472
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f0d1a64d2d53b029",
+  "name" : "I login with username and password \"CRMAdmin@betlab\" \"CrmAdmin123#\" into the text box",
+  "time" : {
+    "start" : 1532699222126,
+    "stop" : 1532699224587,
+    "duration" : 2461
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fd3a0d81d36e1ee",
+  "name" : "I login with username and password <user> <password> into the text box",
+  "time" : {
+    "start" : 1536141607599,
+    "stop" : 1536141607601,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

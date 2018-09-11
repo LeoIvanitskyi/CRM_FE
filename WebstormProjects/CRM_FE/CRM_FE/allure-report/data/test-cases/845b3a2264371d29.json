@@ -1,0 +1,95 @@
+{
+  "uid" : "845b3a2264371d29",
+  "name" : "I om crm login page",
+  "fullName" : "Performing a login Performing login operation with passing test data as data table.I om crm login page",
+  "historyId" : "4f427f6e712b6ea3cb021ad18169cfc9",
+  "time" : {
+    "start" : 1532682295097,
+    "stop" : 1532682299949,
+    "duration" : 4852
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/875d213fa2ca658bc5e39253dab43671/url",
+      "time" : {
+        "start" : 1532682295101,
+        "stop" : 1532682298939,
+        "duration" : 3838
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "176396fe99e0504b",
+        "name" : "Request",
+        "source" : "176396fe99e0504b.json",
+        "type" : "application/json",
+        "size" : 47
+      }, {
+        "uid" : "89685f6b16bc66fa",
+        "name" : "Response",
+        "source" : "89685f6b16bc66fa.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing login operation with passing test data as data table"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Performing login operation with passing test data as data table"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Performing login operation with passing test data as data table"
+  }, {
+    "name" : "testMethod",
+    "value" : "I om crm login page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Performing login operation with passing test data as data table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "845b3a2264371d29.json",
+  "parameterValues" : [ "chrome" ]
+}

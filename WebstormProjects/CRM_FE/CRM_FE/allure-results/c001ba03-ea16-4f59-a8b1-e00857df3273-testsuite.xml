@@ -1,0 +1,173 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1532682122758' stop='1532682130114'>
+    <name>Performing a login Performing login operation with passing test data as data table</name>
+    <title>Performing a login Performing login operation with passing test data as data table</title>
+    <test-cases>
+        <test-case start='1532682122760' status='passed' stop='1532682127580'>
+            <name>I om crm login page</name>
+            <title>I om crm login page</title>
+            <labels>
+                <label name='feature' value='Performing a login'/>
+                <label name='story' value='Performing login operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/leonid.ivanytskyi/WebstormProjects/webdriverIO-with-cucumberBDD/test/features/login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1532682122765' status='passed' stop='1532682126566'>
+                    <name>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/url</name>
+                    <title>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ba1e6835-cd1a-46e2-b8fb-f1eb1c3a8a5e-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='a422a262-95e2-4674-b50e-9f8ecd0a1164-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1532682127581' status='passed' stop='1532682130059'>
+            <name>I login with username and password "CRMAdmin@betlab" "CrmAdmin123#" into the text box</name>
+            <title>I login with username and password "CRMAdmin@betlab" "CrmAdmin123#" into the text box</title>
+            <labels>
+                <label name='feature' value='Performing a login'/>
+                <label name='story' value='Performing login operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/leonid.ivanytskyi/WebstormProjects/webdriverIO-with-cucumberBDD/test/features/login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1532682127584' status='passed' stop='1532682127607'>
+                    <name>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element</name>
+                    <title>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fcf0c4be-a909-4640-a4af-904997d42818-attachment.json' type='application/json' size='94'/>
+                        <attachment title='Response' source='87d9e838-3846-4f0a-ade0-afcc20c9d05f-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1532682127612' status='passed' stop='1532682127633'>
+                    <name>GET /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element/0.5353164179117436-1/displayed</name>
+                    <title>GET /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element/0.5353164179117436-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='41f6cac9-2117-4441-b35d-30bc1734688e-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1532682127635' status='passed' stop='1532682127661'>
+                    <name>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element</name>
+                    <title>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f990b31e-1a8f-4312-8c4f-d38de47bfca3-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='cd54a6a8-13e3-4acc-9deb-66026799c8fd-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1532682127664' status='passed' stop='1532682127685'>
+                    <name>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element/0.5353164179117436-2/clear</name>
+                    <title>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element/0.5353164179117436-2/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='e7778b5f-7c38-4b85-b755-3effede6fdf7-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1532682127685' status='passed' stop='1532682127822'>
+                    <name>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element/0.5353164179117436-2/value</name>
+                    <title>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element/0.5353164179117436-2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='c4534eed-7cb9-4ff0-9e61-330791a05014-attachment.json' type='application/json' size='249'/>
+                        <attachment title='Response' source='a98969c7-a5e0-4d16-8b14-74cbfb7c1f9c-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1532682127824' status='passed' stop='1532682127846'>
+                    <name>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element</name>
+                    <title>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0cdcf10e-d3b7-4c39-a2a6-672bb77929b3-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='04d0b5ea-3c87-40c2-afa0-1565c15cebe6-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1532682127851' status='passed' stop='1532682127879'>
+                    <name>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element/0.5353164179117436-3/clear</name>
+                    <title>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element/0.5353164179117436-3/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='b8660f27-53d2-4b10-b289-2d60fc50d5b5-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1532682127879' status='passed' stop='1532682127969'>
+                    <name>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element/0.5353164179117436-3/value</name>
+                    <title>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element/0.5353164179117436-3/value</title>
+                    <attachments>
+                        <attachment title='Request' source='ff00b4c9-2d15-4a92-bf41-d27df6bbde39-attachment.json' type='application/json' size='207'/>
+                        <attachment title='Response' source='88b403cc-8b8a-40dd-a0a8-b8aeee5ebdd7-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1532682127971' status='passed' stop='1532682127991'>
+                    <name>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element</name>
+                    <title>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c251fd92-abe0-4fa2-8a5b-bf3e39b01e32-attachment.json' type='application/json' size='98'/>
+                        <attachment title='Response' source='5fab800e-763e-4c2e-b30a-061caa98fc4b-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1532682127994' status='passed' stop='1532682128052'>
+                    <name>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element/0.5353164179117436-4/click</name>
+                    <title>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element/0.5353164179117436-4/click</title>
+                    <attachments>
+                        <attachment title='Response' source='d51fe770-0a3e-4c7e-99bd-7bffec3542a9-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1532682130061' status='passed' stop='1532682130111'>
+            <name>I should see user name "CRMAdmin@betlab" on main page</name>
+            <title>I should see user name "CRMAdmin@betlab" on main page</title>
+            <labels>
+                <label name='feature' value='Performing a login'/>
+                <label name='story' value='Performing login operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/leonid.ivanytskyi/WebstormProjects/webdriverIO-with-cucumberBDD/test/features/login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1532682130062' status='passed' stop='1532682130083'>
+                    <name>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element</name>
+                    <title>POST /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9d36fbd5-dc7c-4d1a-8066-412dba8f7b68-attachment.json' type='application/json' size='108'/>
+                        <attachment title='Response' source='0ceeb2aa-78f1-4473-b702-15e841402d61-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1532682130085' status='passed' stop='1532682130107'>
+                    <name>GET /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element/0.5353164179117436-5/text</name>
+                    <title>GET /wd/hub/session/d6d98d23acd252b4ee56f77b5d8b4828/element/0.5353164179117436-5/text</title>
+                    <attachments>
+                        <attachment title='Response' source='adb8698b-c0af-4db7-bb2e-ff5d32bc5fef-attachment.json' type='application/json' size='104'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

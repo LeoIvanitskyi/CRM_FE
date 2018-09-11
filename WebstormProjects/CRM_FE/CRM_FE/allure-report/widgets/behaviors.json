@@ -1,0 +1,15 @@
+{
+  "total" : 11,
+  "items" : [ {
+    "uid" : "0727f32e6f3888a219c4ff9491d8ff48",
+    "name" : "Performing a login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

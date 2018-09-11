@@ -1,0 +1,329 @@
+{
+  "6203c869e8a862d9cb7cef1594df6282" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e35d9fdf19de3823",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536141607607,
+        "stop" : 1536141607608,
+        "duration" : 1
+      }
+    } ]
+  },
+  "d03d72ed2ca12f33ec941d0fcbb3cbd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d30977217216b32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536147596737,
+        "stop" : 1536147601657,
+        "duration" : 4920
+      }
+    } ]
+  },
+  "ee9af6ae2d62c8e5dabe286c5d12744e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "34a00b081fed674b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532699224588,
+        "stop" : 1532699224633,
+        "duration" : 45
+      }
+    } ]
+  },
+  "bb2f1f547770d13429aaee784bfeeff4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36589a3177bf1101",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536141602094,
+        "stop" : 1536141607598,
+        "duration" : 5504
+      }
+    } ]
+  },
+  "a7413329eac3d8a4c1ee20985545d010" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "731188f72d8eebd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533036151044,
+        "stop" : 1533036159663,
+        "duration" : 8619
+      }
+    } ]
+  },
+  "f26f6a3df823208f5ae08a9489d770b4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93e50d4a0cba8fea",
+      "status" : "broken",
+      "statusDetails" : "Step \"I om crm main page\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1536140859724,
+        "stop" : 1536140859733,
+        "duration" : 9
+      }
+    } ]
+  },
+  "9030c79f667236bee0f6f68f7f7a0fb1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "306f45b772ed57e9",
+      "status" : "broken",
+      "statusDetails" : "element (\"body > my-app > ng-component > div > form > h2\") still not visible after 5000ms",
+      "time" : {
+        "start" : 1536149436506,
+        "stop" : 1536149442319,
+        "duration" : 5813
+      }
+    } ]
+  },
+  "d331f64a674e85c90600d7a3f9a2d1e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b96923c58e41f261",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536149442319,
+        "stop" : 1536149442319,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4f427f6e712b6ea3cb021ad18169cfc9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "527751d436a79691",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532699216958,
+        "stop" : 1532699222125,
+        "duration" : 5167
+      }
+    } ]
+  },
+  "4bb5b334b5d9764960d73cbaced6a169" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af4e742d7a2dff91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536149427196,
+        "stop" : 1536149436504,
+        "duration" : 9308
+      }
+    } ]
+  },
+  "c05ebd0631727580deacb0d7b5e872b0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2251cd4bfca2320",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"#logout-button\").",
+      "time" : {
+        "start" : 1536147601659,
+        "stop" : 1536147602131,
+        "duration" : 472
+      }
+    } ]
+  },
+  "c6c9311f2080788bb03e25108c444216" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f0d1a64d2d53b029",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532699222126,
+        "stop" : 1532699224587,
+        "duration" : 2461
+      }
+    } ]
+  },
+  "97fda562a77a5b386e85c6ce9acb53d0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "533464f4883a3390",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536141607609,
+        "stop" : 1536141607610,
+        "duration" : 1
+      }
+    } ]
+  },
+  "8882cb225bf793fea8fc8cf4aff6e797" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c12c997b90b060c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536147602131,
+        "stop" : 1536147602131,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7c072921ac9d241cc0cb758887b428ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15ed1428534f0ba6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533031320886,
+        "stop" : 1533031320971,
+        "duration" : 85
+      }
+    } ]
+  },
+  "cc201fa2e03fc8c5521e84dc53be2bbf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "87a765258f1b915f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1536141607602,
+        "stop" : 1536141607606,
+        "duration" : 4
+      }
+    } ]
+  },
+  "2f5cde66cd0ae2329a75f48f55d26fef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3fd3a0d81d36e1ee",
+      "status" : "broken",
+      "statusDetails" : "Step \"I login with username and password <user> <password> into the text box\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1536141607599,
+        "stop" : 1536141607601,
+        "duration" : 2
+      }
+    } ]
+  }
+}

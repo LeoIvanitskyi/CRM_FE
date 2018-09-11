@@ -1,0 +1,89 @@
+{
+  "uid" : "7aad4ca75933ccf3",
+  "name" : "I on crm login page",
+  "fullName" : "Performing a login .I on crm login page",
+  "historyId" : "d03d72ed2ca12f33ec941d0fcbb3cbd",
+  "time" : {
+    "start" : 1536147487448,
+    "stop" : 1536147491981,
+    "duration" : 4533
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/95052ee5e71ba23f86a005baf555c796/url",
+      "time" : {
+        "start" : 1536147487448,
+        "stop" : 1536147490967,
+        "duration" : 3519
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "237339b5aa37860a",
+        "name" : "Request",
+        "source" : "237339b5aa37860a.json",
+        "type" : "application/json",
+        "size" : 47
+      }, {
+        "uid" : "1b2ce614eaa9d0d8",
+        "name" : "Response",
+        "source" : "1b2ce614eaa9d0d8.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login "
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login "
+  }, {
+    "name" : "testMethod",
+    "value" : "I on crm login page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7aad4ca75933ccf3.json",
+  "parameterValues" : [ "chrome" ]
+}

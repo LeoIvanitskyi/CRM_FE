@@ -1,0 +1,73 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Step \"I om crm main page\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "children" : [ {
+        "name" : "I om crm main page",
+        "uid" : "93e50d4a0cba8fea",
+        "parentUid" : "7fb1b54fc828e4112b0c3113e9b4f25a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1536140859724,
+          "stop" : 1536140859733,
+          "duration" : 9
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "7fb1b54fc828e4112b0c3113e9b4f25a"
+    }, {
+      "name" : "Step \"I login with username and password <user> <password> into the text box\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "children" : [ {
+        "name" : "I login with username and password <user> <password> into the text box",
+        "uid" : "3fd3a0d81d36e1ee",
+        "parentUid" : "38243f39b13339e33a6f4c568c1778f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1536141607599,
+          "stop" : 1536141607601,
+          "duration" : 2
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "38243f39b13339e33a6f4c568c1778f7"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters (\"#logout-button\").",
+      "children" : [ {
+        "name" : "I press logout button",
+        "uid" : "2251cd4bfca2320",
+        "parentUid" : "4e8ffdbe431d66b400c17b1f8193c895",
+        "status" : "broken",
+        "time" : {
+          "start" : 1536147601659,
+          "stop" : 1536147602131,
+          "duration" : 472
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "4e8ffdbe431d66b400c17b1f8193c895"
+    }, {
+      "name" : "element (\"body > my-app > ng-component > div > form > h2\") still not visible after 5000ms",
+      "children" : [ {
+        "name" : "I login with username and password \"CRMAdmin@betlab\" \"CrmAdmin123#\" into the text box",
+        "uid" : "306f45b772ed57e9",
+        "parentUid" : "195c26e209d4138d9dcdf5cd3980c1a0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1536149436506,
+          "stop" : 1536149442319,
+          "duration" : 5813
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "195c26e209d4138d9dcdf5cd3980c1a0"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

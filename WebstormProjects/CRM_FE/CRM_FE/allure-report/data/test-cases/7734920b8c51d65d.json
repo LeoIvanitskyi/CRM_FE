@@ -1,0 +1,52 @@
+{
+  "uid" : "7734920b8c51d65d",
+  "name" : "I should see all elements of login page",
+  "fullName" : "Performing a logout .I should see all elements of login page",
+  "historyId" : "97fda562a77a5b386e85c6ce9acb53d0",
+  "time" : {
+    "start" : 1536140686641,
+    "stop" : 1536140686641,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "testMethod",
+    "value" : "I should see all elements of login page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a logout "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7734920b8c51d65d.json",
+  "parameterValues" : [ "chrome" ]
+}
